@@ -182,7 +182,7 @@
 //   }
 // }
 
-// printArray(array);
+// printArray(list);
 
 // let x = 0;
 // x += 1;

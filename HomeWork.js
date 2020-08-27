@@ -6,20 +6,26 @@
 
 //1번 문제
 // Boolean 타입 이닥 Number 타입처럼 변수 선언해서 반환해도되고 Const result = true 아니면 바로 return true
-// function pirint(a) {
+// function print(a) {
 //   if (a % 2 === 0) {
 //     return true;
 //   } else if (a % 2 === 1) {
 //     return false;
 //   }
 // }
-// console.log(pirint(2));
+// console.log(print(2));
+// console.log(print(1));
 
 //2번 문제
+// const array = [];
+
+// for (let i = 0; i < 10; i++) {
+//   array.push(i);
+// }
+
+// console.log(array);
 
 //3번 문제
-// function power(a, b) {
-// }
 
 //4번 문제
 // const StockArray = [
@@ -63,4 +69,9 @@
 //   if (Stock.price >= 1000) {
 //     console.log(array);
 //   }
+// }
+
+//5번 문제
+// for (let i = 1; i < 11; i++) {
+//   console.log(i);
 // }
