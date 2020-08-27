@@ -5,16 +5,62 @@
 // 5. 함수에 숫자 넣으면 1 ~ 10 까지 증가 값 더하기 ex) 1 넣으면 num + 1 + 2 + 3 + 4... + 10
 
 //1번 문제
-// function number() {
-
+// Boolean 타입 이닥 Number 타입처럼 변수 선언해서 반환해도되고 Const result = true 아니면 바로 return true
+// function pirint(a) {
+//   if (a % 2 === 0) {
+//     return true;
+//   } else if (a % 2 === 1) {
+//     return false;
+//   }
 // }
+// console.log(pirint(2));
 
 //2번 문제
 
 //3번 문제
-// function powerOfTwo(num) {
-//     const power = num * num;
-//     return power;
+// function power(a, b) {
+// }
+
+//4번 문제
+// const StockArray = [
+//   {
+//     name: "대주전자재료",
+//     price: 51000,
+//   },
+//   {
+//     name: "애플",
+//     price: 600000,
+//   },
+//   {
+//     name: "삼성전자",
+//     price: 55600,
+//   },
+//   {
+//     name: "한국전력공사",
+//     price: 230,
+//   },
+//   {
+//     name: "마이크로소프트",
+//     price: 300000,
+//   },
+//   {
+//     name: "LG화학",
+//     price: 300,
+//   },
+//   {
+//     name: "카카오",
+//     price: 410000,
+//   },
+//   {
+//     name: "지엔원에너지",
+//     price: 100,
+//   },
+// ];
+
+// for (let i = 0; i < StockArray.length; i++) {
+//   const Stock = StockArray[i];
+//   const array = `${Stock.name}의 현재 가격은 ${Stock.price}원 입니다.`;
+//   if (Stock.price >= 1000) {
+//     console.log(array);
 //   }
-//   const result = powerOfTwo(3);
-//   console.log(result);
+// }

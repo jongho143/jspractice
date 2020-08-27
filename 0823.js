@@ -68,12 +68,12 @@
 // }
 
 //5번 문제 복습
-function powerOfTwo(num) {
-  const power = num * num;
-  return power;
-}
-const result = powerOfTwo(3);
-console.log(result);
+// function powerOfTwo(num) {
+//   const power = num * num;
+//   return power;
+// }
+// const result = powerOfTwo(3);
+// console.log(result);
 
 // 1번 문제
 // for (let i = 1; i <= 10; i++) {
